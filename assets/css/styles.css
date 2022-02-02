@@ -1437,7 +1437,7 @@ p {
   /* header */
   .header__container img {
     height: 350px;
-    object-position: -100% center;
+    object-position: -200% center;
   }
   .header__container .header__texts {
     height: 64vh;
@@ -1510,6 +1510,12 @@ p {
   }
 }
 @media (max-width: 375px) {
+
+  /* header */
+  .header__container img {
+    height: 380px;
+    object-position: -100% center;
+  }
   /* main - people */
   .people__item {
     margin-left: -46px;
