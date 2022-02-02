@@ -1437,7 +1437,7 @@ p {
   /* header */
   .header__container img {
     height: 350px;
-    object-position: -200% center;
+    object-position: -100% center;
   }
   .header__container .header__texts {
     height: 64vh;
@@ -1445,6 +1445,7 @@ p {
   .header__container .header__text h1 {
     width: 80%;
     font-size: 2.1875em;
+    z-index: 1;
   }
   .header__container .header__text p {
     width: 60%;
